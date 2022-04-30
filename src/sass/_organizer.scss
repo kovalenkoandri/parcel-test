@@ -1,0 +1,41 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.organizer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.organizer-list-item {
+}
+.organizer-sub-title {
+  font-family: 'Gothic A1';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  //   color: var(--primary-dark-color);
+  color: #000000;
+}
+
+.organizer-text {
+  width: 370px;
+  height: 90px;
+
+  font-family: 'Gothic A1';
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+
+  //   color: var(--secondary-title-color);
+  color: #6b6b6b;
+}
