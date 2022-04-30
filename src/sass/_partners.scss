@@ -1,0 +1,25 @@
+.partners {
+  display: flex;
+  list-style: none;
+
+  &__href {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__li {
+    width: 270px;
+  }
+
+  &__li:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__svg {
+    width: 70px;
+    height: 70px;
+  }
+}

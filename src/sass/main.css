@@ -29,6 +29,7 @@
   background-position: center;
 }
 
+
 /*==============global style reset============= */
 body {
   font-family: "Gothic A1", sans-serif;
@@ -151,7 +152,8 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 20;
-  transition: 0.3s all;
+  -webkit-transition: .3s all;
+  transition: .3s all;
 }
 
 /* Стили для модальных окон */
@@ -166,15 +168,19 @@ a {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   z-index: 30;
   /* Должен быть выше чем у подложки*/
   /*  Побочные стили   */
-  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
   text-align: center;
   padding: 30px;
   border-radius: 3px;
   background-color: #fff;
+  -webkit-transition: 0.3s all;
+
   transition: 0.3s all;
 }
 
@@ -196,4 +202,7 @@ a {
   cursor: pointer;
 }
 
-/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять *//*# sourceMappingURL=main.css.map */
+
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
+/*# sourceMappingURL=main.css.map */
+
