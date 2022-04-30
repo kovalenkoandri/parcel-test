@@ -1,0 +1,29 @@
+.statistic{
+    display: flex;
+    list-style: none;
+}
+
+.statistic-list{
+    width: 324px;
+    height: 134px;
+    padding: 0 97px 44px 98px;
+}
+
+.statistic-text{
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 59px;
+line-height: 1.5;
+text-align: center;
+}
+
+.statistic-name{
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.3;
+text-align: center;
+color: #000000;
+}
