@@ -1,5 +1,5 @@
 # Parcel boilerplate
-
+[maket](https://www.figma.com/file/t5aUlzww0YQoQw5DLLqiYa/Richard)
 ## Скрытые файлы
 
 Включите отображение скрытых файлов и папок в проводнике своей операционной системы, иначе вы не
