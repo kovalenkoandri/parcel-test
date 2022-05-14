@@ -172,7 +172,6 @@ a {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -200,7 +199,6 @@ body {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -267,7 +265,6 @@ body {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -493,4 +490,3 @@ body {
   cursor: pointer;
 }
 
-/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
