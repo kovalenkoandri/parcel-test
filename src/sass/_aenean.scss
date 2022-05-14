@@ -3,6 +3,11 @@
 }
 
 
+.aenean__container {
+  width: 100%;
+  padding: 80px 120px 0 120px;
+}
+
 .aenean__title {
   font-size: 12px;
   font-weight: 400;
@@ -15,7 +20,6 @@
 }
 
 .aenean__text {
-  display: block;
   margin: 0 auto;
   font-weight: 400;
   font-size: 38px;
@@ -23,6 +27,8 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 55px;
-  width: 607px;}
-
+}
+.aenean__image {
+  display: block;
+}
 
