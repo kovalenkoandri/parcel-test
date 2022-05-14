@@ -25,6 +25,7 @@
   text-align: center;
   //   color: var(--primary-dark-color);
   color: #000000;
+  margin-bottom: 17px;
 }
 
 .organizer-text {
@@ -51,4 +52,10 @@
 .organizer__svg-stat {
   width: 40px;
   height: 35px;
+}
+
+.organizer__href {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
