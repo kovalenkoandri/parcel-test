@@ -18,22 +18,22 @@
 
 .name-citata {
     margin-left: 576px;
+    
 }
 
-.name-citata::after {
-    content: '';
+.dash-citata {
     display:inline-block;
     width: 30px;
     height: 1px;
     left: calc(50% - 30px/2 - 10px);
     top: calc(50% - 1px/2 - 4.88px);
 
-    background: #D3D3D3;
+    background-color: #D3D3D3;
     border-radius: 0px;
-    
     margin-right: 20px;
     margin-left: 20px;
-    
+    margin-bottom: 4px;
+  
 }
 
 .name-citata,
@@ -47,4 +47,8 @@
 
 .newspaper-citata {
     font-weight: 700;
+    
+}
+.signature-citata {
+    margin-bottom: 88px;
 }
