@@ -1,7 +1,29 @@
-.section {
-  padding-left: 72px;
-  padding-right: 72px;
+.aenean {
+  background-color: #1b1b1b;
 }
+
+
+.aenean__title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  margin-bottom: 25px;
+}
+
+.aenean__text {
+  display: block;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 55px;
+  width: 607px;
 
 .aenean__description {
   margin-top: 188px;
