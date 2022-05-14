@@ -9,10 +9,13 @@
     border-radius: 0px;
     background-image: url(../images/bg-image-wave.png);
     background-position: center;
+    
+   
     // opacity: 0.25;
     
-
 }
+
+
 
 .section-title {
     font-family: 'Gothic A1';
@@ -54,3 +57,9 @@
 .link-ready:not(first-child) {
     margin-left: 10px;
 }
+// .item-ready__item{
+//     &--activ{
+//         background: #FC0A7E;
+//     }
+
+// }
