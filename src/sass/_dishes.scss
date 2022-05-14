@@ -20,7 +20,6 @@ p {
     margin: 0;}
 
 .container-dishes {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-right: 144px;
@@ -28,33 +27,31 @@ p {
     outline: 2px solid tomato;
 }
 
-.dishes-burgers{
-    display: flex;
-    width: 1296px;
-    height: 414px;
-}
 .dishes-list{
+    display: flex;
     padding-left: 72px;
     padding-right: 72px;
-}
-
-.dishes-title {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.6em;
+    line-height: 1.6;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #A8A8A8;
 }
+
+.dishes-item{
+
+}
+
 
 .dishes-name {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 400;
     font-size: 38px;
-    line-height: 1.2em;
+    line-height: 1.2;
     color: #000000;
         }
 
@@ -63,16 +60,7 @@ font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.8em;
+    line-height: 1.8;
     color: #6B6B6B;
-}
-
-.dishes-img{
-        position: relative;
-        width: 519px;
-        height: 414px;
-        left: calc(50% - 519px/2 + 0.5px);
-        top: calc(50% - 414px/2);
-        border-radius: 0px;
 }
 
