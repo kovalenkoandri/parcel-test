@@ -139,10 +139,7 @@ a {
   background: #fc0a7e;
 }
 
-.container {
-  width: 100%;
-  padding-right: 144px;
-  padding-left: 144px;
+
 }
 
 .visually-hidden {
@@ -154,8 +151,6 @@ a {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -183,8 +178,6 @@ body {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -251,8 +244,7 @@ body {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -477,5 +469,3 @@ body {
   fill: #444;
   cursor: pointer;
 }
-
-/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять *//*# sourceMappingURL=main.css.map */
