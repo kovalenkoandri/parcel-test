@@ -19,9 +19,49 @@
 body {
   font-family: 'Gothic A1', sans-serif;
 }
-
+.advetures {
+  padding: 80px 0 160px 0;
+}
+.advetures .container {
+  padding: 0 144px;
+}
 .adventures-sub-title {
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.66;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  margin-bottom: 30px;
+}
+.adventures-title {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.adventures-after-title {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #6b6b6b;
+}
+.adventures-list {
+  display: flex;
+  flex-direction: column;
+}
+.adventures-item {
+  display: flex;
+  align-items: center;
+}
+.adventures-item:not(:last-child) {
+  margin-bottom: 106px;
+}
+.adventures-item:nth-child(odd) .adventures-content {
+  margin-right: 109px;
+}
+.adventures-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.adventures-item:nth-child(even) .adventures-content {
+  margin-left: 109px;
 }
