@@ -1,9 +1,7 @@
-.container {
-    
-        width: 1035px;
-       
-        margin: 0 auto;
 
+
+.img-citata {
+    fill: turquoise;
 }
 .text-citata {
     font-family: 'Gothic A1';
@@ -11,8 +9,45 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 1.66;
-   
     text-align: center;
     
     color: #6B6B6B;
+    padding-left: 370px;
+    padding-right: 370px;
+        margin-bottom: 17px;
+    margin-top: 63px;
 }
+
+.name-citata {
+    margin-left: 576px;
+}
+
+.name-citata::after {
+    content: '';
+    display:inline-block;
+    width: 30px;
+    height: 1px;
+    left: calc(50% - 30px/2 - 10px);
+    top: calc(50% - 1px/2 - 4.88px);
+
+    background: #D3D3D3;
+    border-radius: 0px;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.name-citata,
+.newspaper-citata {
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+.newspaper-citata {
+    font-weight: 700;
+}
+
