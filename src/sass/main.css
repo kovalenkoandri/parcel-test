@@ -1,20 +1,3 @@
-@charset "UTF-8";
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #424242;
-  max-width: 960px;
-  padding: 16px;
-}
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
   font-weight: 700;
   background-color: #009688;
   color: #fff;
@@ -31,7 +14,6 @@
 
 /*==============global style reset============= */
 body {
-  font-family: "Gothic A1", sans-serif;
   font-weight: 400;
   width: 1440px;
   margin: 0 auto;
@@ -78,13 +60,7 @@ a {
 }
 
 .page-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-list {
-  display: flex;
+ display: flex;
 }
 
 .nav-item item:not(:last-child) {
@@ -139,28 +115,6 @@ a {
   background: #fc0a7e;
 }
 
-.section {
-  padding-left: 72px;
-  padding-right: 72px;
-}
-
-.container {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1296px;
-  padding-right: 144px;
-  padding-left: 144px;
-  outline: 2px solid tomato;
-}
-
-.aenean__description {
-  margin-top: 188px;
-  margin-bottom: 188px;
-  width: 450px;
-  height: 256;
-  padding-left: 58px;
-  padding-right: 86px;
 }
 
 .visually-hidden {
@@ -172,8 +126,6 @@ a {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -183,7 +135,6 @@ a {
 }
 
 body {
-  font-family: "Gothic A1", sans-serif;
 }
 
 .adventures-sub-title {
@@ -201,19 +152,11 @@ body {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
   margin: -1px;
 }
 
 .organizer-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.organizer-sub-title {
-  font-family: "Gothic A1";
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
@@ -224,7 +167,6 @@ body {
 .organizer-text {
   width: 370px;
   height: 90px;
-  font-family: "Gothic A1";
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
@@ -243,7 +185,6 @@ body {
 }
 
 .statistic-text {
-  font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
   font-size: 59px;
@@ -252,7 +193,6 @@ body {
 }
 
 .statistic-name {
-  font-family: "Gothic A1";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -269,8 +209,6 @@ body {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -301,7 +239,6 @@ body {
 }
 
 .text-citata {
-  font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -313,31 +250,11 @@ body {
 .partners {
   list-style: none;
 }
-.partners__ul {
-  display: flex;
-  flex-direction: row;
-}
-.partners__href {
-  display: flex;
-  justify-content: center;
-}
-.partners__li {
-  width: 14vw;
-}
-.partners__li:not(:last-child) {
-  margin-right: 30px;
-}
-.partners__svg:hover, .partners__svg:focus {
-  transform: scale(1.2, 1.2) rotateY(360deg);
-}
 .partners__svg {
   width: 100px;
   height: 100px;
   color: #a8a8a8;
   fill: currentColor;
-  transition-property: transform;
-  transition-duration: 700ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -360,7 +277,6 @@ body {
 }
 
 .title-ready {
-  font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
@@ -379,8 +295,6 @@ body {
   width: 190px;
   height: 66px;
   padding: 20px 40px;
-  background-color: rgb(252, 10, 126);
-  font-family: "Gothic A1";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -400,7 +314,7 @@ body {
 
 .footer-wraper {
   width: 575px;
-  height: 242px;
+  height: 242.08px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -430,10 +344,6 @@ body {
   text-align: center;
   font-style: normal;
   color: #6B6B6B;
-  transition: color 250ms;
-}
-.footer-address-link:hover, .footer-address-link:focus {
-  color: #2196F3;
 }
 
 .richard-logo-footer {
@@ -455,7 +365,6 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 20;
-  transition: 0.3s all;
 }
 
 /* Стили для модальных окон */
@@ -470,11 +379,6 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 30;
-  /* Должен быть выше чем у подложки*/
-  /*  Побочные стили   */
-  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
   text-align: center;
   padding: 30px;
   border-radius: 3px;
@@ -500,4 +404,3 @@ body {
   cursor: pointer;
 }
 
-/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять *//*# sourceMappingURL=main.css.map */
