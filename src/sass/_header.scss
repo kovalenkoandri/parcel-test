@@ -10,12 +10,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 144px;
+  padding-right: 144px;
+  // max-width: 1152px;
 }
-.nav-list {
-  display: flex;
+.nav-item{
+  display: inline-block;
 }
 .nav-item:not(:last-child) {
   margin-right: 30px;
+}
+.nav-item:first-child {
+  margin-left: 15px;
 }
 .nav-item:last-child {
   margin-right: 15px;
