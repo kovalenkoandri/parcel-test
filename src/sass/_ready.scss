@@ -1,65 +1,55 @@
-
-
-.section-ready {
-    padding-top: 165px;
-    padding-right: 522px;
-    padding-bottom: 155px;
-    padding-left: 522px;
-    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;    
-    border-radius: 0px;
-    background-image: url(../images/bg-image-wave.png);
-    background-position: center;
-    
-   
-    // opacity: 0.25;
-    
+.ready {
+  max-width: 1440px;
+  height: 474px;
+  background: url(../images/wave-group.png), linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
+//   background: linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
+//   background: url(../images/img-hero-min.png),
+//     linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
+//   background-repeat: no-repeat;
+//   background-position: right 44px top 120px, center;
 }
 
-
-
-.section-title {
-    font-family: 'Gothic A1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 1.2;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 40px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.ready-title {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.list-ready {
-    display: flex;
-    list-style: none;
+.ready-list {
+  display: flex;
+  list-style: none;
 }
 
+.ready-link {
+  width: 190px;
+  height: 66px;
+  padding: 20px 40px;
+  background: none;
+  // background-color: rgba(252, 10, 126, 1);
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #ffffff;
+  &:focus,
+  &:hover {
+    background: #fc0a7e;
+  }
+}
 
-.link-ready {
-    width: 190px;
-    height: 66px;
-    padding: 20px 40px;
-    background: none;
-    // background-color: rgba(252, 10, 126, 1);
-    font-family: 'Gothic A1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    color: #FFFFFF;
-    &:focus,
-    &:hover {
-            background: #FC0A7E;
-        }    
-    }
-
-.link-ready:not(first-child) {
-    margin-left: 10px;
+.ready-link:not(:first-child) {
+  margin-left: 10px;
 }
 // .item-ready__item{
 //     &--activ{
 //         background: #FC0A7E;
 //     }
-
 // }

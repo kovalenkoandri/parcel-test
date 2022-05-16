@@ -1,9 +1,14 @@
 /*==============global style reset============= */
+:root {
+    --trickyScale: 1;
+}
+
 body {
   font-family: 'Gothic A1', sans-serif;
   font-weight: 400;
   max-width: 1440px;
   margin: 0 auto;
+  // background-color: rgba(137, 201, 155, 0.753);
   // @media only screen and (max-device-width: 1439px) {
   //   width: 72vw;
   // }

@@ -28,7 +28,7 @@
   max-width: 100%;
 }
 
-.adventures-item {
+.adventures-item:not(:last-child) {
   margin-bottom: 160px;
 }
 

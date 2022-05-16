@@ -1,47 +1,35 @@
 .partners {
-  list-style: none;
+  padding-top: 102px;
 
   &__ul {
-    display: flex;
-    flex-direction: row;
-// display: grid;
-// grid-template-columns: repeat(5, 1fr);
-// grid-template-rows: 200px;
-// gap: 20px;
+    text-align: center;
+    // transform: scale(var(--trickyScale));
   }
 
   &__href {
-    display: flex;
-    justify-content: center;
   }
 
   &__li {
-    //   width: 100px;
-    // @media only screen and (min-device-width: 499px) {
-    //   width: 170px;
-    // }
-    // @media only screen and (min-device-width: 999px) {
-    //   width: 270px;
-      width: 14vw;
-    // }
+    display: inline-block;
+    // width: 14vw;
   }
 
   &__li:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 200px;
   }
-  
+
   &__svg:hover,
   &__svg:focus {
     transform: scale(1.2, 1.2) rotateY(360deg);
   }
 
   &__svg {
-    width: 100px;
-    height: 100px;
+    max-width: 115px;
+    max-height: 115px;
     color: #a8a8a8;
     fill: currentColor;
     transition-property: transform;
-    transition-duration:  700ms;
+    transition-duration: 700ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

@@ -1,54 +1,67 @@
-.img-citata {
-    fill: turquoise;
-}
-.text-citata {
-    font-family: 'Gothic A1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.66;
-    text-align: center;
-    
-    color: #6B6B6B;
-    padding-left: 370px;
-    padding-right: 370px;
-        margin-bottom: 17px;
-    margin-top: 63px;
+.citata {
+  text-align: center;
+  padding-top: 160px;
 }
 
-.name-citata {
-    margin-left: 576px;
-    
+.citata-marks {
+  display: inline-block;
+  width: 58px;
+  height: 54px;
+  margin-bottom: 63px;
 }
 
-.dash-citata {
-    display:inline-block;
-    width: 30px;
-    height: 1px;
-    left: calc(50% - 30px/2 - 10px);
-    top: calc(50% - 1px/2 - 4.88px);
-
-    background-color: #D3D3D3;
-    border-radius: 0px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 4px;
-  
+.citata-text {
+  display: block;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+  line-height: 1.66;
+  text-align: center;
+  color: #6b6b6b;
+  margin-bottom: 17px;
 }
 
-.name-citata,
-.newspaper-citata {
-    font-family: 'Gothic A1';
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    color: #6B6B6B;
+.citata-signature {
+  margin-bottom: 88px;
 }
 
-.newspaper-citata {
-    font-weight: 700;
-    
+.citata-name {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #6b6b6b;
+  margin-right: 20px;
 }
-.signature-citata {
-    margin-bottom: 88px;
+
+.citata-dash {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 1px;
+  background: #d3d3d3;
+}
+
+.citata-newspaper {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #6b6b6b;
+  margin-left: 20px;
+}
+
+.citata-period {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #222222;
+  margin-right: 16px;
+}
+
+.citata-period-color {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: rgba(34, 34, 34, 0.4);
 }
