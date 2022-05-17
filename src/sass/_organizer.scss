@@ -1,49 +1,51 @@
 .organizer {
   padding-top: 159px;
-}
 
-.organizer-list {
-  text-align: center;
-}
-.organizer-list-item {
-  display: inline-block;
-  font-size: 0;
-}
+  &__list {
+    text-align: center;
+  }
 
-.organizer-list-item:not(:last-child) {
-  margin-right: 62px;
-}
-.organizer-sub-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.33;
-  text-align: center;
-  margin-bottom: 17px;
-}
+  &__item {
+    display: inline-block;
+  }
 
-.organizer-text {
-  width: 370px;
-  height: 90px;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  color: #6b6b6b;
-}
+  &__item:not(:last-child) {
+    margin-right: 62px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    margin-bottom: 17px;
+  }
 
-.organizer__svg-burger {
-  width: 80px;
-  height: 35px;
-}
-.organizer__svg-knife-spoon {
-  width: 74px;
-  height: 35px;
-}
-.organizer__svg-stat {
-  width: 40px;
-  height: 35px;
-}
+  &__text {
+    width: 370px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    color: #6b6b6b;
+  }
 
-.organizer__href {
-  display: block;
-  margin-bottom: 40px;
+  &__burger {
+    width: 80px;
+    height: 35px;
+  }
+
+  &__knife-spoon {
+    width: 74px;
+    height: 35px;
+  }
+
+  &__stat {
+    width: 40px;
+    height: 35px;
+  }
+
+  &__href {
+    display: block;
+    margin-bottom: 40px;
+  }
 }

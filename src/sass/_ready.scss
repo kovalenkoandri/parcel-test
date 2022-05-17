@@ -1,55 +1,45 @@
 .ready {
   max-width: 1440px;
   height: 474px;
-  background: url(../images/wave-group.png), linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
-//   background: linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
-//   background: url(../images/img-hero-min.png),
-//     linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
-//   background-repeat: no-repeat;
-//   background-position: right 44px top 120px, center;
-}
-
-.ready-title {
-  font-family: 'Gothic A1';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 38px;
-  line-height: 1.2;
+  background: url(../images/wave-group.png),
+    linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
   text-align: center;
-  color: #ffffff;
-  margin-bottom: 40px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  display: table;
+  width: 100%;
 
-.ready-list {
-  display: flex;
-  list-style: none;
-}
+  &__div {
+    display: table-cell;
+    vertical-align: middle;
+  }
 
-.ready-link {
-  width: 190px;
-  height: 66px;
-  padding: 20px 40px;
-  background: none;
-  // background-color: rgba(252, 10, 126, 1);
-  font-family: 'Gothic A1';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  color: #ffffff;
-  &:focus,
-  &:hover {
-    background: #fc0a7e;
+  &__title {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.26;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+
+  &__wrapper {
+    font-size: 0;
+  }
+
+  &__download {
+    background-color: #fc0a7e;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    margin-right: 10px;
+  }
+
+  &__get {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #fff;
+    padding: 20px 40px;
+    border: 1px solid #b04bb3;
   }
 }
-
-.ready-link:not(:first-child) {
-  margin-left: 10px;
-}
-// .item-ready__item{
-//     &--activ{
-//         background: #FC0A7E;
-//     }
-// }

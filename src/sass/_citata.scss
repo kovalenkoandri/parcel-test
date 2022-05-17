@@ -1,67 +1,65 @@
 .citata {
   text-align: center;
   padding-top: 160px;
-}
 
-.citata-marks {
-  display: inline-block;
-  width: 58px;
-  height: 54px;
-  margin-bottom: 63px;
-}
+  &__marks {
+    display: inline-block;
+    width: 58px;
+    height: 54px;
+    margin-bottom: 63px;
+  }
 
-.citata-text {
-  display: block;
-  max-width: 700px;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 24px;
-  line-height: 1.66;
-  text-align: center;
-  color: #6b6b6b;
-  margin-bottom: 17px;
-}
+  &__text {
+    display: block;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    line-height: 1.66;
+    text-align: center;
+    color: #6b6b6b;
+    margin-bottom: 17px;
+  }
 
-.citata-signature {
-  margin-bottom: 88px;
-}
+  &__signature {
+    margin-bottom: 88px;
+  }
 
-.citata-name {
-  display: inline-block;
-  font-size: 16px;
-  line-height: 1.88;
-  color: #6b6b6b;
-  margin-right: 20px;
-}
+  &__name {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #6b6b6b;
+    margin-right: 20px;
+  }
 
-.citata-dash {
-  display: inline-block;
-  vertical-align: middle;
-  width: 30px;
-  height: 1px;
-  background: #d3d3d3;
-}
+  &__dash {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 1px;
+    background: #d3d3d3;
+  }
 
-.citata-newspaper {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  color: #6b6b6b;
-  margin-left: 20px;
-}
+  &__newspaper {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #6b6b6b;
+    margin-left: 20px;
+  }
 
-.citata-period {
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  background-color: #222222;
-  margin-right: 16px;
-}
-
-.citata-period-color {
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  background-color: rgba(34, 34, 34, 0.4);
+  &__period {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: #222222;
+    margin-right: 16px;
+  }
+  
+  &__period--second {
+    background-color: rgba(34, 34, 34, 0.4);
+    margin-right: 0;
+  }
 }

@@ -1,39 +1,36 @@
 .statistic {
   padding-top: 160px;
-}
 
-.statistic-ul {
-  text-align: center;
-}
+  &__ul {
+    text-align: center;
+  }
 
-.statistic-item {
-  //   width: 324px;
-  //   height: 134px;
-  // padding: 0 97px 44px 98px;
-  margin-left: 110px;
-  margin-right: 110px;
-  display: inline-block;
-  text-align: center;
-}
+  &__item {
+    margin-left: 110px;
+    margin-right: 110px;
+    display: inline-block;
+    text-align: center;
+  }
 
-.statistic-text {
-  display: block;
-  margin-bottom: 10px;
-  font-family: 'Gothic A1';
-  font-size: 59px;
-  line-height: 1.5;
-  text-align: center;
-  color: #333333;
-}
+  &__text {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Gothic A1';
+    font-size: 59px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333333;
+  }
 
-.statistic-name {
-  font-family: 'Gothic A1';
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.3;
-  text-align: center;
-}
+  &__name {
+    font-family: 'Gothic A1';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: center;
+  }
 
-.statistic-name-origin {
-  font-weight: 400;
+  &__name--origin {
+    font-weight: 400;
+  }
 }

@@ -1,79 +1,57 @@
-.get-section{
-background-color: #1B1B1B;
-padding-top: 129px;
-padding-bottom: 126px;
-padding-left: 488px;
-padding-right: 486px;
-}
+.get {
+  background-color: #1b1b1b;
+  height: 463px;
+  text-align: center;
+  display: table-cell;
+  width: 100vw;
+  vertical-align: middle;
 
-
-.title{
-font-family: 'Gothic A1';
-font-style: normal;
-font-weight: 400;
-font-size: 38px;
-line-height: 1.26;
-text-align: center;
-color: #FFFFFF;
-margin-bottom: 20px;
-}
-
-.text{
-font-family: 'Gothic A1';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-text-align: center;
-color: #6B6B6B;
-margin-bottom: 40px;
-}
-
-.js-open-modal{
-    display: block;
-    width: 465px;
-    height: 70px;
-    
-}
-
-.sub-form {
-    display: flex;
-    justify-content: center;
-}
-.subscribe-mail {
-    background-color: #ffffff;
-    box-shadow: 0px 0px 0px #FC0A7E;
-    border-radius: 3px 0px 0px 3px;
-    border: none;
-    padding-left: 16px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 311px;
-    height: 70px;
-  &::placeholder {
-    color: #1c1c1c;
-    font-family: 'Gothic A1';
-    font-style: normal;
+  &__title {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-
+    font-size: 38px;
+    line-height: 1.26;
+    color: #fff;
+    margin-bottom: 20px;
   }
 
-}
-.subscribe-btn {
-    width: 154px;
+  &__text {
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    color: #6b6b6b;
+    margin-bottom: 40px;
+  }
+
+  // .js-open-modal{
+  //     display: block;
+  //     width: 465px;
+  //     height: 70px;
+
+  // }
+
+  &__mail {
+    vertical-align: middle;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px #fc0a7e;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 16px;
+    padding: 22px 155px 22px 3px;
     height: 70px;
-    padding: 20px 40px;
+    &::placeholder {
+      color: #1c1c1c;
+      font-size: 16px;
+      line-height: 1.62;
+    }
+  }
+  
+  &__btn {
+    vertical-align: middle;
+    height: 70px;
+    padding: 22px 40px;
     background-color: rgba(252, 10, 126, 1);
-    font-family: 'Gothic A1';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
     color: #1c1c1c;
     border-radius: 0px 3px 3px 0px;
-    border: none;
-    cursor: pointer;
+  }
 }

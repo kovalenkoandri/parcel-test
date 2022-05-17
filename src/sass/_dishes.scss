@@ -1,53 +1,70 @@
 .dishes {
   padding-top: 160px;
-}
-
-.dishes-list * {
-  font-size: 0;
-  vertical-align: middle;
   text-align: center;
-}
 
-.dishes-item-burger {
-  margin-bottom: 161px;
-}
+  &__list * {
+    font-size: 0;
+    vertical-align: middle;
+  }
 
-.dishes-burger {
-  display: inline-block;
-  max-width: 450px;
-}
+  &__item-burger {
+    margin-bottom: 161px;
+  }
 
-.dishes-item-salat {
-  direction: rtl;
-}
+  &__burger {
+    display: inline-block;
+    max-width: 450px;
+    padding-right: 62px;
+    padding-bottom: 3px;
+    padding-left: 58px;
+    text-align: left;
+  }
 
-.dishes-salat {
-  display: inline-block;
-  max-width: 450px;
-}
+  &__item-salat {
+    direction: rtl;
+  }
 
-.dishes-title {
-  font-size: 12px;
-  line-height: 1.6em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #a8a8a8;
-  margin-bottom: 20px;
-}
+  &__salat {
+    display: inline-block;
+    max-width: 450px;
+    padding-right: 62px;
+    padding-bottom: 3px;
+    padding-left: 58px;
+    text-align: left;
+  }
 
-.dishes-name {
-  font-size: 38px;
-  line-height: 1.2em;
-  margin-bottom: 27px;
-}
+  &__title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a8a8a8;
+    margin-bottom: 20px;
+  }
 
-.dishes-text {
-  font-size: 16px;
-  line-height: 1.8em;
-  color: #6b6b6b;
-}
+  &__name {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.26;
+    margin-bottom: 27px;
+  }
 
-.dishes-img {
-  display: inline-block;
-  max-width: 100%;
+  &__text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: #6b6b6b;
+  }
+
+  &__mat {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-decoration-line: underline;
+  }
+
+  &__img {
+    display: inline-block;
+    max-width: 100%;
+  }
 }
