@@ -7,8 +7,18 @@
   padding-left: 144px;
   background: url(../images/img-hero-min-652-680.png),
     linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
-  background-repeat: no-repeat;
-  background-position: right 44px top 120px, center;
+    background-position: right 44px top 120px, center;
+    background-repeat: no-repeat;
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background: url(../images/img-hero-min-1304-1360.png),
+      linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
+      background-position: right 44px top 120px, center;
+      background-size: 652px 680px, 100%;
+      background-repeat: no-repeat;
+    }
   &__title {
     margin-bottom: 10px;
     font-weight: 400;

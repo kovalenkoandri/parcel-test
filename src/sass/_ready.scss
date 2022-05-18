@@ -1,11 +1,15 @@
 .ready {
   max-width: 1440px;
   height: 474px;
-  background: url(../images/wave-group.png),
+  background: url(../images/wave-group-1440-487.png),
     linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
   text-align: center;
   display: table;
   width: 100%;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background: url(../images/wave-group-2880-972.png),
+    linear-gradient(276.18deg, #6e28b1 0%, rgba(0, 0, 0, 0) 100%), #fc0a7e;
+  }
 
   &__div {
     display: table-cell;
