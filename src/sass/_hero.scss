@@ -1,39 +1,38 @@
 .section-absolute {
   position: relative;
 }
-
-.container-hero {
-  padding-top: 226px;
-  padding-bottom: 354px;
+.hero {
+  padding-top: 298px;
+  padding-bottom: 277px;
   padding-left: 144px;
-  background: url(../images/img-hero-min.png),
+  background: url(../images/img-hero-min-652-680.png),
     linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
   background-repeat: no-repeat;
   background-position: right 44px top 120px, center;
-}
-.hero-title {
-  margin-bottom: 10px;
-  font-weight: 400;
-  font-size: 80px;
-  line-height: 1;
-  color: #ffffff;
-}
-.hero-text {
-  margin-bottom: 25px;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 1.47;
-  color: #ffffff;
-}
-.hero-btn {
-  display: block;
-  height: 66px;
-  padding: 20px 40px;
-  border: 0;
-  border-radius: 3px;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  color: #ffffff;
-  background: #fc0a7e;
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 1;
+    color: #ffffff;
+  }
+  &__text {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.47;
+    color: #ffffff;
+  }
+  &__btn {
+    display: block;
+    height: 66px;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: #ffffff;
+    background: #fc0a7e;
+  }
 }

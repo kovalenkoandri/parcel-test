@@ -1,32 +1,43 @@
 /*===================header==================== */
-.page-header {
+.header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   padding: 29px 0 28px 0;
-}
-.page-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-left: 144px;
   padding-right: 144px;
-  // max-width: 1152px;
+  text-align: justify;
 }
-.nav-item{
+
+.header::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.header__logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header__nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__item {
   display: inline-block;
 }
-.nav-item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 30px;
 }
-.nav-item:first-child {
+.nav__item:first-child {
   margin-left: 15px;
 }
-.nav-item:last-child {
+.nav__item:last-child {
   margin-right: 15px;
 }
-.nav-link {
+.nav__link {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.33;
